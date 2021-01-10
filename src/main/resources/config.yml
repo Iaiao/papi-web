@@ -1,0 +1,5 @@
+# connect to host:port/?q=%placeholder_query%
+ip: "0.0.0.0"
+port: 3000
+
+name: "API" # It will set placeholders like to player named "WebServer"

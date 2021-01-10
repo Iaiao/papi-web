@@ -1,0 +1,5 @@
+name: PAPIWebServer
+version: ${version}
+main: mc.iaiao.papiwebserver.PAPIWebServer
+api-version: 1.13
+author: Iaiao
