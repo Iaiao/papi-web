@@ -1,5 +1,14 @@
 # connect to host:port/?q=%placeholder_query%
-ip: "0.0.0.0"
-port: 3000
+http:
+  ip: "0.0.0.0"
+  port: 3000
+
+https:
+  enabled: on
+  ip: "0.0.0.0"
+  port: 3001
+  keystore: "JKS"
+  file: "testkey.jks"
+  password: "password"
 
 name: "API" # It will set placeholders like to player named "WebServer"
